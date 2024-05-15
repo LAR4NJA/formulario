@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background-color: #b1b1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tudo {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.dig {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 100px;
+
+}
+input.error, textarea.error {
+    border-color: red;
+}
+
+.erro{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2{
+   
+    text-align: center;
+}
